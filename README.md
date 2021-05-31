@@ -2,14 +2,23 @@
 
 
 pkg update && upgrade
+
 pkg install python
+
 pkg install git
+
 pip install bs4
+
 pip install requests
+
 pip install mechanize
+
 pip install futures
-rm -rf Fcracker
+
+rm -rf AHSAN
+
 git clone https://github.com/Ahsanfiaz1/AHSAN
+
 
 cd AHSAN
 
